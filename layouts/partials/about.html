@@ -1,0 +1,43 @@
+<div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    {{ with ($.Scratch.Get "authorPicture") }}
+      <img id="about-card-picture" src="{{ . }}{{ if in . "//www.gravatar.com/avatar/" }}?s=110{{ end }}" alt="{{ i18n "global.author_picture" }}" />
+    {{ end }}
+    <h4 id="about-card-name">{{ .Site.Author.name }}</h4>
+    {{ with .Site.Author.bio }}
+      <div id="about-card-bio">{{ . | markdownify }}</div>
+    {{ end }}
+    {{ with .Site.Author.git }}
+      <div id="about-card-job">
+        <a target="_blank" href="https://github.com/{{ . }}"> <i class="fa fa-github"></i>
+        <br/>
+        GitHub </a>
+      </div>
+    {{ end }}
+    {{ with .Site.Author.linkedin }}
+    <div id="about-card-job">
+      <a target="_blank" href="https://linkedin.com/in/{{ . }}"><i class="fa fa-linkedin"></i>
+      <br/>LinkedIn</a>
+    </div>
+    {{ end }}
+    {{ with .Site.Author.email }}
+      <div id="about-card-job">
+        <a href="mailto:{{ . }}">
+        <i class="fa fa-envelope"></i>
+        <br/>email</a>
+      </div>
+    {{ end }}
+    {{ with .Site.Author.location }}
+
+      <div id="about-card-job">
+        <a target="_blank" href="https://www.google.com/maps/search/{{ . }}">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        {{ . }}</a>
+      </div>
+    {{ end }}
+  </div>
+</div>

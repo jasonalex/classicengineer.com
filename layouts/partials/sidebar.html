@@ -1,0 +1,17 @@
+<nav id="sidebar" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
+  <div class="sidebar-container">
+      <div class="sidebar-profile">
+        <a href= "/"> {{ partial "logo.html" . }} </a>
+        <br><p class="sidebar-profile-name">Jason Alex | Blog</p>
+      </div>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.main "root" $) }}
+    </ul>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.links "root" $) }}
+    </ul>
+    <ul class="sidebar-buttons">
+      {{ partial "menu.html" (dict "menu" .Site.Menus.misc "root" $) }}
+    </ul>
+  </div>
+</nav>
