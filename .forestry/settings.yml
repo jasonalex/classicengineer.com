@@ -9,13 +9,13 @@ sections:
   label: Posts
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20200215113809'
 - type: directory
   path: content/page
   label: Pages
   create: all
   match: "*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
