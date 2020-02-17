@@ -1,0 +1,28 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: keywords
+  label: keywords
+- type: boolean
+  name: comments
+  label: comments
+- type: boolean
+  name: showMeta
+  label: showMeta
+- type: boolean
+  name: showActions
+  label: showActions
