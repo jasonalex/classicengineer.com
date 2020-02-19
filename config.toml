@@ -72,7 +72,7 @@ canonifyurls = true
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
   sidebarBehavior = 2
-  coverImage = "https://res.cloudinary.com/classicengineer/image/upload/e_blur:820/v1581701244/cover.jpg"
+  coverImage = "https://res.cloudinary.com/classicengineer/image/upload/e_blur:720/v1582098768/classicengineer.com/melbourne.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true

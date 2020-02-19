@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+<body>
+  <div id="blog">
+    {{ partial "header.html" . }}
+    {{ partial "sidebar.html" . }}
+    <div id="main" data-behavior="{{ .Scratch.Get "sidebarBehavior" }}">
+      <section class="postShorten-group main-content-wrap">
+        <main class="posts">
+          <article class="post"><center>
+            <h1>Ahhhh! You found me!</h1>
+            <code>Also you found an elusive 404 Page</code><br><br>
+            <img src="https://res.cloudinary.com/classicengineer/image/upload/v1582121136/classicengineer.com/pug_segibw.jpg" width=45%>
+            <br><br><p>While we work on this error, please check out our<a href="/"> awesome posts</a>.</p></center>
+          </article>
+        </main>
+    </section>
+    </div>
+  </div>
+
+{{ partial "foot.html" . }}
