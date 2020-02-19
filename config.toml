@@ -13,7 +13,7 @@ canonifyurls = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
+  category = "topics"
   archive = "archives"
 
 [author]
@@ -33,10 +33,10 @@ canonifyurls = true
   url = "/"
 [[menu.main]]
   weight = 2
-  identifier = "categories"
-  name = "Categories"
+  identifier = "topics"
+  name = "Topics"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
-  url = "/categories"
+  url = "/topics"
 [[menu.main]]
   weight = 3
   identifier = "tags"
@@ -72,7 +72,7 @@ canonifyurls = true
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
   sidebarBehavior = 2
-  coverImage = "https://res.cloudinary.com/classicengineer/image/upload/e_blur:720/v1582098768/classicengineer.com/melbourne.jpg"
+  coverImage = "https://res.cloudinary.com/classicengineer/image/upload/e_blur:720/v1582098766/classicengineer.com/aussy.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
