@@ -26,3 +26,5 @@ fields:
 - type: boolean
   name: showActions
   label: showActions
+pages:
+- content/post/test-post.20200215113809
