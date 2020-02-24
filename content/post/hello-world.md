@@ -8,6 +8,7 @@ tags:
 - tag2
 keywords:
 - tech
+draft: true
 
 ---
 sadfsafsfsadfasfsadsafdsfasdfsdf
